@@ -1,8 +1,6 @@
 source :rubygems
 
-gem 'yajl-ruby',     '0.7.7', :require => 'yajl'
-gem 'i18n',          '0.5.0'
-gem 'activesupport', '3.1.0', :require => 'active_support'
+gemspec
 
 group :test do
   gem 'rspec', '2.6.0'

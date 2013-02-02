@@ -2,7 +2,7 @@
 # Stevie Graham
 
 require 'rubygems'
-require 'yajl'
+require 'multi_json'
 require 'i18n'
 require 'active_support'
 

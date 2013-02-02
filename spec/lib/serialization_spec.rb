@@ -4,6 +4,6 @@ describe Glamazon::JSON do
   let(:mule) { Mule.new }
   it "serializes to JSON" do
     mule.foo = 'bar'
-    mule.to_json.should == Yajl::Encoder.new.encode(mule.attributes)
+    mule.to_json.should == MultiJson.encode(mule.attributes)
   end
 end
