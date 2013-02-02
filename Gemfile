@@ -1,4 +1,4 @@
-source :gemcutter
+source :rubygems
 
 gem 'yajl-ruby',     '0.7.7', :require => 'yajl'
 gem 'i18n',          '0.5.0'
